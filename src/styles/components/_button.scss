@@ -1,0 +1,59 @@
+//Big Button
+.big-button {
+    background: $blue;
+    border: none;
+    border-bottom: .6rem solid darken($blue, 10%);
+    color: $plain-white;
+    font-weight: bold;
+    font-size: $l-size;
+    margin-bottom: $m-size;
+    padding: 2.4rem;
+    width: 100%;
+}
+
+.big-button:disabled {
+    opacity: .5;
+}
+
+@media (min-width: $desktop-breakpoint) {
+    .big-button {
+        margin-bottom: $xl-size;
+    }
+
+}
+
+//Button
+
+.button {
+    background: $blue;
+    border: none;
+    border-bottom: .3rem solid darken($blue, 10%);
+    font-weight: 500;
+    color: $plain-white;
+    padding: $s-size;
+
+}
+
+.button--link {
+    background: none;
+    border: none;
+    color: $off-white;
+    padding: 0;
+}
+
+.button--del {
+    background: none;
+    border: none;
+    color: $off-white;
+    padding: 0 0.3rem;
+}
+
+.button--del:hover {
+    background: red;
+    border-radius: 100%;
+    color: $plain-white;
+    
+    
+}
+
+
